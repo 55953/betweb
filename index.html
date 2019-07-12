@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bet</title>
+	<link rel="stylesheet" href="/less-in/css/styles.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid headerFixed"><!-- Header start -->
+		<div class="row">
+			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-9"><!--bt-logo start-->
+				<div class="bt-logo">
+					<a href="?page=home" title="BetopCorporation">BetopCorporation<!--<img class="bt-Logo" alt="BT Logo" src="/images/flog.png"> -->
+					</a>
+				</div>
+			</div><!--/bt logo End-->
+			<div class="hidden-xs col-sm-5 col-md-4 col-lg-3"><!--Social buttons-->
+				<div class="sclMda">
+					<a href="https://www.facebook.com/betopcorporation/" target="_blank" class="fa fa-facebook fa-2x smBut"></a>
+					<a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin fa-2x smBut"></a>
+					<a href="https://twitter.com/betopcorp" target="_blank" class="fa fa-twitter fa-2x smBut"></a>
+					<a href=" " target="_blank" class="fa fa-rss fa-2x smBut"></a>
+					<a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube fa-2x smBut"></a>
+				</div>
+				<div class="clearfix"></div>
+				<div class="tpLks">
+					<a class="button">Login</a>
+					<a href="?page=careers"><span class="fa fa-briefcase fa-2x"></span>Careers</a>
+				</div>
+			</div><!--/Social buttons-->
+		</div><!--/row-->
+    </div><!--/container-fluid-->
+	<div class="clearfix"></div>
+	<div class="container">
+		<div data-offset-top="100" data-spy="affix" class="affix-top">
+			<nav class="navbar-default" role="navigation">
+				<div class ="container">
+					<div class="navbar-header">
+						<button type="button" class= "navbar-toggle" data-toggle = "collapse" data-target = "#primary-navbar" ><!--data-parent=".bt-header"-->
+											<span class = "icon-bar"></span>
+											<span class = "icon-bar"></span>
+											<span class = "icon-bar"></span>
+						</button>
+						<div class="hidden"> <!-- class="hidden-md hidden-lg">-->
+							<a class="navbar-brand">Login</a>
+						</div>
+					</div>			
+					<div class="collapse navbar-collapse" id="primary-navbar"><!--Navigation Head start-->	
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+								<ul id="navPrimary" class="nav navbar-nav">
+									<li class="dropdown first">
+										<a title="Home" class="dropdown-toggle" href="?page=home">Home</a>
+									</li>
+									<li class="dropdown first" id="navAboutus">
+										<a title="About us" class="dropdown-toggle" href="?page=AboutUs">About Us <i class = "caret"></i></a>
+										<ul class="dropdown-menu">
+											<li class="first" id="VisValues"><a href="?page=aboutus/visionandvalues">Vision and Virtues</a></li>
+											<li><a href="?page=aboutus/companyorganization">Company Organization</a></li>
+											<li><a href="?page=aboutus/research">Research</a></li>
+											<li><a href="?page=aboutus/localinvolvement">Local Invelvement</a></li>
+										</ul>
+									</li>
+									<li class = "dropdown first" id="toservices">
+										<a title="Services" class="dropdown-toggle" href="?page=services">Services <i class = "caret"></i></a>
+										<ul class ="dropdown-menu">
+											<li class="first"><a href="?page=services/systemengineering">System Engineering</a></li>
+											<li><a href="?page=services/webdevelopment">Websites Development</a></li>
+											<li><a href="?page=services/qualityassurence">Quality Assurance</a></li>
+											<li><a href="?page=services/datamining">Data Mining and Machine Learning</a></li>
+											<li><a href="?page=services/analysisandmodeling">Analysis and Modeling</a></li>
+											<!--<li><a href="technologyconsultancy.php">Technology Consultancy</a></li>-->				
+										</ul>
+									</li>
+									<li class = "dropdown first" id="tocareers">
+										<a title="Careers" class="dropdown-toggle" id="frcareers" href="?page=careers">Careers <i class = "caret"></i></a>	
+										<ul class ="dropdown-menu">
+											<li class="first"><a href="?page=careers/TheworkEnvironment">The Work Environment</a></li>
+											<li><a href="?page=careers/currentopening">Current Opening</a></li>
+											<li><a href="?page=careers/studentsgraduates">Students and New Graduates</a></li>
+											<li><a href="?page=careers/equalemployement">Equal Employment Opportunity</a></li>
+											<li><a href="?page=careers/everification">E-Verify Compliance</a></li>
+										</ul>
+									</li>
+									<li class = "dropdown first" id="toinvestors">
+										<a title="Investors" class="dropdown-toggle" id="frinvestors" href="?page=investors">Investors</a>
+									</li>
+									<li class = "dropdown first" id="todownloads">
+										<a title="Downloads" class="dropdown-toggle" id="frdownloads" href="?page=downloads">Downloads <span class = "caret"></a>
+										<ul class ="dropdown-menu">
+											<li class="first"><a href="?page=downloads/articles">Articles</a></li>
+											<li><a href="?page=downloads/publications">Publications</a></li>
+										</ul>
+									</li>
+									<li class = "dropdown first" id="tocontactus">
+										<a title="Contact Us" class="dropdown-toggle" id="frcontactus" href="?page=Contact">Contact us</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm- 12 col-md-2 col-lg-2">
+								<form role="search" class="header-search navbar-form navbar-right" id="headerSearchForm" action="search.php" method="get">
+									<div class="input-group">
+										<input type="text" name="query" id="searchKeywordsHeader" placeholder="search" value="" class="form-control searchKeywords" action="include/js_suggest/suggest.php" columns="2" autocomplete="off" delay="1500">
+										<span class="input-group-btn">
+											<button type="submit" class="btn btn-default btn-header-search" value="Search">
+												<i class="fa fa-search"></i>
+											</button>
+										</span>
+										<input type="hidden" name="search" id="siteidHeader" value="1">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div><!-- end .container --> 
+			</nav>
+		</div>
+	</div>
+    <div class="clearfix" style="height:10px"></div>
+    <div class="container">
+        <div class="row">
+			<div class="col-md-8">
+				<div id="myCarousel" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="row-fluid item">
+							<img src="/images/betopCorp.jpg" alt="Partnership is important for success">
+							<div class="carousel-caption">
+								<h1>Betop Corporation</h1>
+								<div class="tagline"><p>Take a look into our exhibitions and make your next step</p></div>
+								<!--<a href="">
+									<button style="margin-top: 10px;" class="btn btn-primary btn-sm hidden-xs">Find out more</button>
+									<button style="margin-top: 10px;" class="btn btn-primary btn-xs hidden-sm hidden-md hidden-lg">Find out more</button>
+								</a>-->
+								<div class="spotCredit"><p>Betop Corporation</p></div>
+							</div>
+						</div>
+						<div class="row-fluid item">
+							<img src="/images/sci-fi.jpg" alt="Sci-fi week">
+							<div class="carousel-caption">
+								<h1>Sci-fi Open week</h1>
+								<div class="tagline">
+									<p>
+										Business day – 5<sup>th</sup> July , schools – 6<sup>th</sup> and 7<sup>th</sup> July, public Day – 9<sup>th</sup> July&nbsp;
+									</p>
+								</div>
+								<a href="#">
+									<button style="margin-top: 10px;" class="btn btn-primary btn-sm hidden-xs">Find out more</button>
+									<button style="margin-top: 10px;" class="btn btn-primary btn-xs hidden-sm hidden-md hidden-lg">Find out more</button>
+								</a>
+								<div class="spotCredit"></div>
+							</div>
+						</div>
+						<div class="row-fluid item active">
+							<img src="/images/machine-learning.png" alt="Future of robotic and human">
+							<div class="carousel-caption">
+								<h1>Data mining and Machine learning</h1>
+								<div class="tagline"><p>We can develop features in yours services, work with us</p></div>
+								<a href="?page=services/datamining">
+									<button style="margin-top: 10px;" class="btn btn-primary btn-sm hidden-xs">Find out more</button>
+									<button style="margin-top: 10px;" class="btn btn-primary btn-xs hidden-sm hidden-md hidden-lg">Find out more</button>
+								</a>
+								<div class="spotCredit"></div>
+							</div>
+						</div>
+						<div class="row-fluid item">
+							<img src="/images/RWD.png" alt="Responsive web design">
+							<div class="carousel-caption">
+								<h1>Web and Mobile application</h1>
+								<div class="tagline"><p>It doesn't have to be particuraly an App, your website can be mobile</p></div>
+								<a href="?page=services/webdevelopment">
+									<button style="margin-top: 10px;" class="btn btn-primary btn-sm hidden-xs">Find out more</button>
+									<button style="margin-top: 10px;" class="btn btn-primary btn-xs hidden-sm hidden-md hidden-lg">Find out more</button>
+								</a>
+								<div class="spotCredit"></div>
+							</div>
+						</div>
+						<div class="row-fluid item">
+							<img src="/images/computation.jpg" alt="Computation physics">
+							<div class="carousel-caption">
+								<h1>Computation solutions</h1>
+								<div class="tagline"><p>We can help you to speed up your Engineering services</p></div>
+								<a href="#">
+									<button style="margin-top: 10px;" class="btn btn-primary btn-sm hidden-xs">Find out more</button>
+									<button style="margin-top: 10px;" class="btn btn-primary btn-xs hidden-sm hidden-md hidden-lg">Find out more</button>
+								</a>
+								<div class="spotCredit"><p>Math solutions and Data analysis</p></div>
+							</div>
+						</div>
+						<div class="row-fluid item">
+							<img src="/images/Engineeringdesign.jpg" alt="System Engineering and design">
+							<div class="carousel-caption">
+								<h1>System Engineering</h1>
+								<div class="tagline"><p>Our work goes deep to integrate several areas of expertise</p></div>
+								<a href="?page= services/systemengineering">
+									<button style="margin-top: 10px;" class="btn btn-primary btn-sm hidden-xs">Find out more</button>
+									<button style="margin-top: 10px;" class="btn btn-primary btn-xs hidden-sm hidden-md hidden-lg">Find out more</button>
+								</a>
+							<div class="spotCredit"><p>Betop Corporation</p></div>
+							</div>
+						</div>
+						<div class="row-fluid item">
+							<img src="/images/computation-crypt.jpg" alt="Quantum computing threatens to shatter existing cryptographic schemes that shield electronic information">
+							<div class="carousel-caption">
+								<h1>Tackling future Information Security Issues</h1>
+								<div class="tagline">
+									<p>High Computing capability is posing a threat to breach existing encryption methods</p>
+								</div>
+								<a href="">
+									<button style="margin-top: 10px;" class="btn btn-primary btn-sm hidden-xs">Find out more</button>
+									<button style="margin-top: 10px;" class="btn btn-primary btn-xs hidden-sm hidden-md hidden-lg">Find out more</button>
+								</a>
+								<div class="spotCredit"><p>Betop Corporation</p></div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-circle-left icon-prev"></i></a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-circle-right icon-next"></i></a>
+					<script>
+					jQuery(document).ready(function($){
+						$('#myCarousel').carousel({interval:6000});});
+					</script>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="btpage-index clearfix newsHome">
+					<h2>Science News & Articles</h2>
+					<div>
+						<dl class="first hasImage" style="min-height:100px;padding-left:100px;">
+							<dd class="image">
+								<a href="http://www.trialphaenergy.com/company" title="TRI ALPHA Energy is developing Nuclear fusion technology, a clean source of energy"><img style="height:80px;width:80px" src="/images/webimg/trialpha.jpg" alt="TRI ALPHA Energy is developing Nuclear fusion technology, a clean source of energy"></a>
+							</dd>
+							<dt class="date releaseDate">
+								27 january 2016
+							</dt>
+							<dt class="title">
+								<a href="https://www.sciencenews.org/article/nuclear-fusion-gets-boost-private-sector-startups">Nuclear fusion gets boost from private-sector startups</a>
+							</dt>
+							<dd class="bt_pagenewssummary">
+								<p>The fusion energy will change the world by helping us the keep our planet safe from pollution by reducing significantely the amount of greenhouse gas
+								.&nbsp;</p>
+							</dd>
+						</dl>
+						<dl class="hasImage" style="min-height:100px;padding-left:100px;">
+							<dd class="image">
+								<a href="http://press.ihs.com/press-release/automotive/ihs-enhances-its-mexico-automotive-aftermarket-insight-new-vehicle-and-oe-c" title="
+								IHS Enhances its Mexico Automotive Aftermarket Insight with new Vehicle and OE Component Research from Integrate Data Facts (IDF)"><img style="height:80px;width:80px" src="/images/webimg/IHS.jpg" alt="IHS Enhances its Mexico Automotive Aftermarket Insight with new Vehicle and OE Component Research from Integrate Data Facts (IDF)"></a>
+							</dd>
+							<dt class="date releaseDate">
+								25 May 2016
+							</dt>
+							<dt class="title">
+								<a href="http://press.ihs.com/press-release/automotive/ihs-enhances-its-mexico-automotive-aftermarket-insight-new-vehicle-and-oe-c">
+								IHS Enhances its Mexico Automotive Aftermarket Insight with new Vehicle and OE Component Research from Integrate Data Facts (IDF)</a>
+							</dt>
+							<dd class="bt_pagenewssummary">
+								<p>..</p>
+							</dd>
+						</dl>
+						<dl class="last hasImage" style="min-height:100px;padding-left:100px;">
+							<dd class="image">
+								<a href="http://www.esaim-cocv.org/articles/cocv/abs/2016/02/contents/contents.html" title="ESAIM: Control, Optimisation and Calculus of Variations"><img style="height:80px;width:80px" src="/images/webimg/cocv.jpg" alt="ESAIM: Control, Optimisation and Calculus of Variations"></a>
+							</dd>
+							<dt class="date releaseDate">
+								(April-June 2016)
+							</dt>
+							<dt class="title">
+								<a href="http://www.esaim-cocv.org/articles/cocv/abs/2016/02/contents/contents.html">ESAIM: Control, Optimisation and Calculus of Variations
+									Vol. 22, No. 2 </a>
+							</dt>
+							<dd class="bt_pagenewssummary">
+								<p>Latest issues on control, Optimisation and Caculus of variations</p>
+							</dd>
+						</dl>
+					</div>
+					<a class="view-all" href="#">News and Articles</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4"><!---Popular Content--->
+						<div class="thumbnail popContent"><img alt="" src="/images/CMP.jpg">
+							<h3>Featured services:</h3>
+							<ul class="media-list">
+								<li class="media">
+									<div class="media-left">
+										<a href="?page=services/webdevelopment"><img alt="..." class="media-object" src="/images/web-small.jpg"></a>
+									</div>
+									<div class="media-body">
+										<a href="?page=services/webdevelopment">Web development</a>
+										<p>It doesn't have to be Mobile App, your website can be Mobile</p>
+									</div>
+								</li>
+								<li class="media">
+									<div class="media-left">
+										<a href="?page=services/systemengineering"><img alt="..." class="media-object" src="/images/Eng-small.jpg"> </a>
+									</div>
+									<div class="media-body">
+										<a href="?page=services/systemengineering">System Engineering</a>
+										<p>Our domain of expertize extends to serveral brenchs of Engineering</p>
+									</div>
+								</li>
+								<li class="media">
+									<div class="media-left">
+									<a href="?page=services/qualityassurence"><img alt="..." class="media-object" src="/images/QA.jpg"> </a>
+									</div>
+									<div class="media-body">
+										<a href="?page=services/qualityassurence">Quality Assurence</a>
+										<p>We can help you to achieve your goels by testing your products and services requirements.</p>
+									</div>
+								</li>
+								<li class="media">
+									<div class="media-left">
+										<a href="?page=services/analysisandmodeling"><img alt="..." class="media-object" src="/images/Analysis-small.jpg"> </a>
+									</div>
+									<div class="media-body">
+										<a href="?page=services/analysisandmodeling">Analysis and Modeling</a>
+										<p>Our expertise in engineering analysis and modeling covers a wide range of specialties and industries.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!---/Popular Content--->
+					<div class="col-xs-12 col-sm-4">
+						<!---Recruitment--->
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="homeRecruitment"><img alt="" class="img-responsive img-rounded" src="/images/careers.jpg">
+									<div class="caption">
+										<h3>Betop Corporation Careers</h3>
+										<p>Find out about a career with Betop Corporation.</p>
+										<p><a class="btn btn-primary btn-sm" href="?page=careers" role="button" target="" title="Find out more about our latest vacancies">Find out more</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!---/Recruitment---><!---/Events--->
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="homeRecruitment"><img alt="" class="img-responsive img-rounded" src="/images/go-mobile.jpg">
+									<div class="caption">
+										<h3>Go Mobile Campain</h3>
+										<p>It doesn't have to be a Mobile App, your website can be Mobile</p>
+										<p><a class="btn btn-primary btn-sm" href="?page=services/webdevelopment/gomobile" role="button" target="" title="Find out more about our latest vacancies">Find out more</a></p>
+									</div>
+								</div>
+								
+							</div>
+						</div><!---Events--->
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="twitterFeed">
+							<div class="title">
+								<h3>Tweets</h3>
+								<p>@BetopCorporation</p>
+							</div>
+							<div class="twitterLogo">
+								<img src="/images/Twitter_logo.png" alt="">
+							</div>
+							<div class="clearfix"></div>
+							<div style="margin-top: 5px;">
+								<a class="twitter-timeline" href="https://twitter.com/betopcorp">Tweets by @betopcorporation</a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div id="gradientbg" class="container-fluid footerMargin"><!--Footer container-fluid-->
+        <div class="row"><!--Footer info-->
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div style="display: block; width: 150px; margin: 20px auto 10px;">
+                    <a href="#" target="_blank"><img class="img-rounded img-responsive fade" src="../images/TETTH.jpg"></a>
+                </div>
+            </div>
+        </div><!--Footer info ends-->
+        <div class="row" style="margin-bottom: 0px;"><!--Switchboard-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div style="display: block; width: 300px; margin: 5px auto; text-align: center;">
+                    <p class="light">To everything, there is a season, a time to every purpose under the haven</p>
+                </div>
+            </div>
+        </div><!--/Switchboard-->
+        <div class="row"><!--Social buttons-->
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                <div class="footScl">
+                    <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook fa-3x smBut"></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin fa-3x smBut"></a>
+                    <a href="https://twitter.com/betopcorp" target="_blank" class="fa fa-twitter fa-3x smBut"></a>
+                    <a href="#" target="_blank" class="fa fa-rss fa-3x smBut"></a>
+                    <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube fa-3x smBut"></a>
+                </div>
+            </div>
+        </div><!--/Social buttons-->
+    </div>
+    <!--Footer container-fluid ends-->
+    <!--Footer links-->
+	<div class="container">
+		<nav class="navbar-footer footerFixed" role="navigation" id="links">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#footer-navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--<div class="hidden-md hidden-lg">
+					<a class="navbar-brand" data-toggle="collapse" data-target="#footer-navbar">Menu</a>
+				</div>-->
+			</div>
+			<div class="footLinks">
+				<div class="collapse navbar-collapse" id="footer-navbar">
+					<ul class="nav navbar-nav">
+						<li><a title="Contact Us" href="../bottompages/Contact.php"><i class="fa fa-phone"></i> Contact us</a></li>
+						<li><a title=" Betop Corporation around" href="../bottompages/aroundus.php"><i class="fa fa-flag"></i> Around Us</a></li>
+						<li><a title="Privacy" href="../bottompages/privacy.php"><i class="fa fa-lock"></i> Privacy</a></li>
+						<li><a title="Copyright" href="../bottompages/copyright.php">© Copyright</a></li>
+						<li><a title="Terms of website use disclaimer" href="../bottompages/termsofuse.php"><i class="fa fa-file-text"></i> Terms &amp; Conditions</a></li>
+						<li><a title="Sci-Fi" href="../bottompages/sci-fi.php"><i class="fa fa-keyboard-o"></i> Sci-fi Actus Actual</a></li>
+						<!--<li><a title="Freedom of Information" href="freedomofinformation.php"><i class="fa fa-info"></i> FOI</a></li>-->
+						<li><a title="Site Map" href="../bottompages/site-map.php"><i class="fa fa-sitemap"></i> Sitemap</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+    </div>
+</body>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</html>
